@@ -4,8 +4,6 @@ streamlit
 pandas 
 numpy 
 tensorflow
-openCV
-json
 matplotlib.pyplot
 seaborn
 
