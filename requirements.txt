@@ -3,7 +3,6 @@ streamlit
 pandas 
 numpy 
 tensorflow
-keras
 openCV
 json
 matplotlib.pyplot
