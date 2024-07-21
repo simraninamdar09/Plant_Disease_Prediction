@@ -57,9 +57,9 @@ elif(app_mode == "Disease Recognition"):
         st.image(test_image,use_column_width=True)
     
     #Predict Button
-    if(st.button("Predict")):
-        with st.spinner("Please Wait..."):
-            st.write("Our Prediction")
+     if(st.button("Predict")):
+        st.snow()
+        st.write("Our Prediction")
         result_index = model_prediction(test_image)
         class_name = ['Apple___Apple_scab',
  'Apple___Black_rot',
