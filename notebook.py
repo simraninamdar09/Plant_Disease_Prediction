@@ -55,10 +55,8 @@ elif(app_mode == "Disease Recognition"):
     test_image = st.file_uploader("Choose as Image:")
     if(st.button("Show Image")):
         st.image(test_image,use_column_width=True)
-    
-    #Predict Button
-     if(st.button("Predict")):
-         st.snow()
+#Predict Button
+    if(st.button("Predict")):
          st.write("Our Prediction")
          result_index = model_prediction(test_image)
          class_name = ['Apple___Apple_scab',
