@@ -1,6 +1,6 @@
 pip==23.1.2
 
-streamlit 
+streamlit==1.36.0
 pandas 
 numpy 
 tensorflow>=1.6.0
