@@ -4,4 +4,4 @@ pandas
 numpy 
 tensorflow>=1.6.0
 seaborn
-
+keras==2.3.1
