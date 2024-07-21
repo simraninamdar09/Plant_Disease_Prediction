@@ -73,7 +73,7 @@ elif(app_mode == "Disease Recognition"):
  'Tomato___Tomato_Yellow_Leaf_Curl_Virus',
  'Tomato___Tomato_mosaic_virus',
  'Tomato___healthy']
-          st.success("Model is Predicting it's a {}".format(class_name[result_index]))
+        st.success("Model is Predicting it's a {}".format(class_name[result_index]))
 
 
 
