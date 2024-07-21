@@ -58,10 +58,10 @@ elif(app_mode == "Disease Recognition"):
     
     #Predict Button
      if(st.button("Predict")):
-        st.snow()
-        st.write("Our Prediction")
-        result_index = model_prediction(test_image)
-        class_name = ['Apple___Apple_scab',
+         st.snow()
+         st.write("Our Prediction")
+         result_index = model_prediction(test_image)
+         class_name = ['Apple___Apple_scab',
  'Apple___Black_rot',
  'Apple___Cedar_apple_rust',
  'Apple___healthy',
