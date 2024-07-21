@@ -27,6 +27,10 @@ protobuf
 tzlocal 
 validators 
 tzdata 
+tensorflow
+keras
+cv2
+json
 pytz 
 scipy 
 openpyxl
