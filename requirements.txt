@@ -3,8 +3,9 @@ pip==23.1.2
 streamlit 
 pandas 
 numpy 
-tensorflow-macos>=2.10.0
-tensorflow-metal==0.6.0
-keras>=2.10.0
+tensorflow>=1.6.0
+opencv-python==4.1.0.25
+sympy==1.0
+
 seaborn
 
