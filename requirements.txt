@@ -4,7 +4,7 @@ pandas
 numpy 
 tensorflow
 keras
-cv2
+openCV
 json
 matplotlib.pyplot
 seaborn
