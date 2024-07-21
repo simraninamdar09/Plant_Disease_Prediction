@@ -1,7 +1,6 @@
 pip==24.1.2
 streamlit==1.36.0
 pandas 
-numpy==1.23.5
+numpy
 tensorflow==2.10.0
 seaborn
-keras==2.4.3
