@@ -18,7 +18,7 @@ app_mode = st.sidebar.selectbox("Select page",["Home","About","Disease Recogniti
 #Home Page
 if(app_mode == "Home"):
     st.header("Plant Disease Recognization System")
-    image_path = "home_page.jpeg"
+    image_path = "Home.jpg"
     st.image(image_path,use_column_width=True)
     st.markdown("""
                 #### About Dataset
