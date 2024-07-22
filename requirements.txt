@@ -3,5 +3,5 @@ streamlit==1.36.0
 pandas 
 numpy
 tensorflow
-keras
+keras==3.4.1
 seaborn
