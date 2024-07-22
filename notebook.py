@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 # Tensorflow Model Prediction
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("training_model.zip",call_endpoint='serving_default')
+    model = tf.keras.models.load_model("training_model.zip")
     image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128,128))
     input_arr=tf.keras.preprocessing.image.img_to_array(image)
     input_arr=np.array([input_arr])# convert single img to batch
@@ -68,7 +68,7 @@ elif(app_mode == "Disease Recognition"):
 #Predict Button
     if(st.button("Predict")):
          st.write("Our Prediction")
-          result_index = model_prediction(test_image)
+         result_index = model_prediction(test_image)
           #Reading Labels
          class_name = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
                     'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 
